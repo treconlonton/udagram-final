@@ -7,7 +7,7 @@
   },
   "main": "server.ts",
   "scripts": {
-    "start": "node ./server.js",
+    "start": "node ./www/server.js",
     "tsc": "npx tsc",
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
@@ -30,7 +30,6 @@
     "email-validator": "^2.0.4",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
-    "latest-version": "^7.0.0",
     "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
     "sequelize": "^6.26.0",
